@@ -72,7 +72,7 @@ const HomeScreen = () => {
             name={isFavorited ? "heart" : "heart-outline"}
             size={25}
             color={isFavorited ? "red" : "green"}
-            onPress={() => toggleFavorite(item)} // Make sure item is passed 
+            onPress={() => toggleFavorite(item)}
           />
         </View>
 
@@ -159,7 +159,7 @@ const HomeScreen = () => {
       />
       {/* FlatList for Coffees */}
       <FlatList
-        // style={styles.coffeeList}
+        
         data={categoryItems}
         horizontal
         renderItem={renderItem}
@@ -180,7 +180,7 @@ const HomeScreen = () => {
       {/* Flatlist for special offers */}
 
       <FlatList
-        // style={styles.specialList}
+       
         data={specialItems || []}
         horizontal
         renderItem={renderSpecialItem}
