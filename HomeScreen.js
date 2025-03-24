@@ -72,7 +72,7 @@ const HomeScreen = () => {
             name={isFavorited ? "heart" : "heart-outline"}
             size={25}
             color={isFavorited ? "red" : "green"}
-            onPress={() => toggleFavorite(item)} // Make sure item is passed correctly
+            onPress={() => toggleFavorite(item)} // Make sure item is passed 
           />
         </View>
 
