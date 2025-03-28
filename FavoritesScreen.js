@@ -3,7 +3,7 @@ import { useFavoritesContext } from "../context/FavoritesContext";
 import localimages from "../localimages";
 
 const FavoritesScreen = () => {
-  const { favoriteItems } = useFavoritesContext(); // Retrieve the favorite items passed from HomeScreen
+  const { favoriteItems } = useFavoritesContext();
 
   const renderFavoriteItem = ({ item }) => {
     const specialSource = localimages[item.image] || { uri: item.image };
