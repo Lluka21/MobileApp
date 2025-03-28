@@ -26,7 +26,7 @@ const FavoritesScreen = () => {
           data={favoriteItems}
           renderItem={renderFavoriteItem}
           numColumns={2}
-          keyExtractor={(item) => item.id.toString()} // Ensure a unique key for each item
+          keyExtractor={(item) => item.id.toString()} 
           contentContainerStyle={{ paddingHorizontal: 10, paddingBottom: 20 }}
           columnWrapperStyle={{ justifyContent: "space-between" }}
           showsVerticalScrollIndicator={false}
