@@ -53,7 +53,7 @@ const CartScreen = () => {
   };
 
 
-  // Conditional logic for rendering cart Items
+  
   if (cartItems.length !== 0) {
     return (
       <View style={styles.container}>
