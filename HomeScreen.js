@@ -62,6 +62,9 @@ const HomeScreen = () => {
     );
   };
 
+
+// renderspecial item section
+
   const renderSpecialItem = ({ item }) => {
     const isFavorited = favoriteItems.some((fav) => fav.id === item.id);
     const specialSource = localimages[item.image] || { uri: item.image };
