@@ -6,7 +6,7 @@ const FavoritesScreen = () => {
   const { favoriteItems } = useFavoritesContext();
 
 
-  // rendering logic here
+  
   
   const renderFavoriteItem = ({ item }) => {
     const specialSource = localimages[item.image] || { uri: item.image };
