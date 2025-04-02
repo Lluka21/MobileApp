@@ -63,7 +63,7 @@ const HomeScreen = () => {
   };
 
 
-// renderspecial item section
+
 
   const renderSpecialItem = ({ item }) => {
     const isFavorited = favoriteItems.some((fav) => fav.id === item.id);
