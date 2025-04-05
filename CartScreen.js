@@ -68,7 +68,7 @@ const CartScreen = () => {
           Cart
         </Text>
 
-            // List for cart 
+            // List for
           <FlatList
           data={cartItems}
           renderItem={renderCartItem}
