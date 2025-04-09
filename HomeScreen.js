@@ -183,7 +183,7 @@ const HomeScreen = () => {
       >
         Special Offer
       </Text>
-      {/* Flatlist for special offers */}
+      {/* Flatlist for special offer */}
 
       <FlatList
        
