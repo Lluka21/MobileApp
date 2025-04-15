@@ -5,7 +5,7 @@ import localimages from "../localimages";
 const FavoritesScreen = () => {
   const { favoriteItems } = useFavoritesContext();
 
-  // Render Favorite Items
+  // Render Favorite Item
 
   const renderFavoriteItem = ({ item }) => {
     const specialSource = localimages[item.image] || { uri: item.image };
