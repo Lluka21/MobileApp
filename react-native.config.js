@@ -1,4 +1,4 @@
-// rn confi
+// rn conf
 module.exports = {
   assets: ["./assets/fonts"], 
 };
