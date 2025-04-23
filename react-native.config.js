@@ -1,4 +1,4 @@
-// rn 
+// r
 module.exports = {
   assets: ["./assets/fonts"], 
 };
