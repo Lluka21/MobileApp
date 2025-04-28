@@ -135,7 +135,7 @@ const HomeScreen = () => {
       </View>
       <Text style={styles.categoryTitle}>Categories</Text>
 
-      {/* FlatLst for Cat*/}
+      {/* FlatList for Cat*/}
       <FlatList
         data={Object.keys(coffeeData.Categories)}
         showsHorizontalScrollIndicator={false}
