@@ -106,7 +106,7 @@ const HomeScreen = () => {
     );
   };
 
-  const categoryItems = coffeeData.Categories[selectedCategory] || [];
+  const categoryItems = coffeeData.Categories[selectedCategory] || [items//];
   const specialItems = specialData.specialCategories.Special;
 
   return (
