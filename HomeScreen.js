@@ -163,7 +163,7 @@ const HomeScreen = () => {
         keyExtractor={(item) => item}
         horizontal
       />
-      {/* FlatList for Coffee item*/}
+      {/* FlatList for Coffee ite*/}
       <FlatList
         
         data={categoryItems}
