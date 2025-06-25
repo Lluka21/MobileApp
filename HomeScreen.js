@@ -17,8 +17,8 @@ import localimages from "../localimages";
 import specialData from "../data/special.json";
 import { useFavoritesContext } from "../context/FavoritesContext";
 import { useCartContext } from "../context/CartContext";
-
-
+// import {useEffect} from 'react
+  
 
 
 const HomeScreen = () => {
