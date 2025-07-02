@@ -33,7 +33,7 @@ const HomeScreen = () => {
   const renderItem = ({ item }) => {
     const imageSource = localimages[item.image] || { uri: item.image };
 
-<!-
+<!
 
     
       
