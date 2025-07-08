@@ -11,6 +11,7 @@ const FavoritesScreen = () => {
   
   
   const renderFavoriteItem = ({ item }) => {
+    / const
     const specialSource = localimages[item.image] || { uri: item.image };
 
     return (
