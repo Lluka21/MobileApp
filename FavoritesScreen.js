@@ -5,7 +5,7 @@ import localimages from "../localimages";
 
 const FavoritesScreen = () => {
 
-    // Destructuring c
+    // Destructuring co
   const { favoriteItems } = useFavoritesContext();
   
   
