@@ -18,8 +18,7 @@ import specialData from "../data/special.json";
 import { useFavoritesContext } from "../context/FavoritesContext";
 import { useCartContext } from "../
 
-  //homesc
-
+  //homes
 
 const HomeScreen = () => {
   const [selectedCategory, setSelectedCategory] = useState("Cappuccino");
