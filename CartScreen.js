@@ -27,6 +27,7 @@ const CartScreen = () => {
       <View style={styles.card}>
         <View>
           <Image source={imageSource} style={styles.productImage} />
+          <Image source = {image} />
         </View>
 
         <Text style={{ fontWeight: "bold", marginTop: 10 }}>{item.name}</Text>
