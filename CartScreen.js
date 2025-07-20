@@ -21,7 +21,7 @@ const CartScreen = () => {
   const renderCartItem = ({ item }) => {
     
     const imageSource = localimages[item.image] | { uri: item.image };
-    const imageg = imageSource
+    const image = imageSource
     
     return (
       <View style={styles.card}>
