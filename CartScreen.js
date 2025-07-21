@@ -13,7 +13,7 @@ import Icon from "react-native-vector-icons/Ionicons";
 
 
 
-const { cartItems, removeFromCart } =
+
 
 const CartScreen = () => {
   const { cartItems, removeFromCart } = useCartContext()
@@ -27,7 +27,7 @@ const CartScreen = () => {
       <View style={styles.card}>
         <View>
           <Image source={imageSource} style={styles.productImage} />
-          <Image source = {image} />
+          <Image source = {image} style />
         </View>
 
         <Text style={{ fontWeight: "bold", marginTop: 10 }}>{item.name}</Text>
