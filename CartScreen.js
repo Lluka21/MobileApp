@@ -13,7 +13,7 @@ import Icon from "react-native-vector-icons/Ionicons";
 
 
 
-const { cartItems, removeFromCart } = useCartContext()
+const { cartItems, removeFromCart } =
 
 const CartScreen = () => {
   const { cartItems, removeFromCart } = useCartContext()
