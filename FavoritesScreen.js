@@ -5,7 +5,7 @@ import localimages from "../localimages";
 
 const FavoritesScreen = () => {
 
-    // Destructuring context
+    // Destructuring conte
   const { favoriteItems } = useFavoritesContext();
   
   
@@ -81,3 +81,4 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
 });
+
