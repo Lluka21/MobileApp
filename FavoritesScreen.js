@@ -1,4 +1,3 @@
-
 import { View, Text, FlatList, Image, StyleSheet } from "react-native";
 import { useFavoritesContext } from "../context/FavoritesContext";
 import localimages from "../localimages";
@@ -81,6 +80,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
 });
+
 
 
 
