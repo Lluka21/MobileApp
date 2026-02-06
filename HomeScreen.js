@@ -16,7 +16,7 @@ import coffeeIcon from "../assets/images/coffee-icon.png";
 import localimages from "../localimages";
 import specialData from "../data/special.json";
 import { useFavoritesContext } from "../context/FavoritesContext";
-import { useCartContext } from "../context/
+import { useCartContext } from "../context/useContext
 
   
 
@@ -304,6 +304,7 @@ const styles = StyleSheet.create({
     height: 240,
   },
 });
+
 
 
 
