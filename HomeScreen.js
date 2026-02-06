@@ -18,7 +18,7 @@ import specialData from "../data/special.json";
 import { useFavoritesContext } from "../context/FavoritesContext";
 import { useCartContext } from "../
 
-  /
+  
 
 const HomeScreen = () => {
   const [selectedCategory, setSelectedCategory] = useState("Cappuccino");
@@ -304,3 +304,4 @@ const styles = StyleSheet.create({
     height: 240,
   },
 });
+
