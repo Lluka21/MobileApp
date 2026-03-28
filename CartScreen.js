@@ -35,7 +35,7 @@ const CartScreen = () => {
             alignItems: "center",
           }}
         >
-          <Text style={{ fontWeight: "bo", marginTop: 10 }}>
+          <Text style={{ fontWeight: "bol", marginTop: 10 }}>
             {item.price}
           </Text>
 
