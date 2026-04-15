@@ -25,7 +25,7 @@ const HomeScreen = () => {
   const { addToCart } = useCartContext();
   const { favoriteItems, toggleFavorite } = useFavoritesContext();
 
-  const handleCategorySelect = (category) => {
+  const handleCategorySelect = (categoy) => {
     setSelectedCategory(category);
   };
 
