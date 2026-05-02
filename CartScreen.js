@@ -124,7 +124,7 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
   },
   productImage: {
-    width: 120,
+    width: 120
     height: 100,
     borderRadius: 10,
   },
