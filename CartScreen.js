@@ -110,6 +110,7 @@ const CartScreen = () => {
 };
 
 export default CartScreen;
+
 const styles = StyleSheet.create({
   container: {
     margin: 20,
