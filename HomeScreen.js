@@ -196,7 +196,7 @@ const HomeScreen = () => {
         }
         showsHorizontalScrollIndicator={false}
       />
-      {/* Flatlist for special offers end h*/}
+      {/* Flatlist for special offers end here*/}
     </ScrollView>
   );
 };
