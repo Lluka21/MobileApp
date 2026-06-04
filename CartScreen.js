@@ -15,7 +15,6 @@ const CartScreen = () => {
   const { cartItems, removeFromCart } = useCartContext()
 
   const renderCartItem = ({ item }) => {
-    
     const imageSource = localimages[item.image] | { uri: item.image };
     const image = imageSource
     
