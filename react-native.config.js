@@ -1,4 +1,4 @@
-///co
+///c
 module.exports = {
   assets: ["./assets/fonts"], 
 };
