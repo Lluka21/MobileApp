@@ -52,7 +52,6 @@ const CartScreen = () => {
     );
   };
 
-
   if (cartItems.length !== 0) {
     return (
       <View style={styles.container}>
