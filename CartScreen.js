@@ -11,6 +11,7 @@ import React from "react";
 import localimages from "../localimages";
 import Icon from "react-native-vector-icons/Ionicons";
 
+
 const CartScreen = () => {
   const { cartItems, removeFromCart } = useCartContext()
 
