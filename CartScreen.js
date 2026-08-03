@@ -13,7 +13,6 @@ import Icon from "react-native-vector-icons/Ionicons";
 
 const CartScreen = () => {
   const { cartItems, removeFromCart } = useCartContext()
-
   
   const renderCartItem = ({ item }) => {
     const imageSource = localimages[item.image] | { uri: item.image };
