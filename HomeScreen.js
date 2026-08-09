@@ -31,7 +31,8 @@ const HomeScreen = () => {
     const imageSource = localimages[item.image] || { uri: item.image };
 
 <!
-      
+
+    
     return (
       <View style={styles.productCard}>
         <Image source={imageSource} style={styles.productImage} />
