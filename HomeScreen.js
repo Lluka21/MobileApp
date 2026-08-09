@@ -32,7 +32,6 @@ const HomeScreen = () => {
 
 <!
 
-    
       
     return (
       <View style={styles.productCard}>
