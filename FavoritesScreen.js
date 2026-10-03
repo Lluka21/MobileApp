@@ -4,7 +4,6 @@ import localimages from "../localimages";
 
 const FavoritesScreen = () => {
 
-
   const { favoriteItems } = useFavoritesContext();
   
   const renderFavoriteItem = ({ item }) => {
